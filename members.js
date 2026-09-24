@@ -157,7 +157,7 @@
 
   function render(list) {
     if (countEl) {
-      countEl.textContent = list.length;
+      countEl.textContent = list.length + " member companies";
     }
 
     if (list.length === 0) {
